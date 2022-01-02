@@ -1,2 +1,11 @@
-To delete a local branch
-git branch -d branch_name
+* To delete a local branch
+ => git branch -d branch_name
+
+* To list tags
+ => git tag
+
+* To delete remote tag
+ =>git push origin --delete tag_name
+
+* To delete local tags
+ =>git tag -d tag_name
